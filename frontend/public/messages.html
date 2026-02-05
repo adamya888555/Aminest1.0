@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DMs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="messages.css">
+</head>
+<body>
+  <header>
+    <h1>DMs</h1>
+    <button id="logout-btn"><i class="fas fa-sign-out-alt"></i></button>
+  </header>
+  <div class="container">
+    <div class="sidebar">
+      <h2>Friends</h2>
+      <div class="search-bar">
+        <input type="text" id="friend-search" placeholder="Search friends...">
+        <i class="fas fa-search"></i>
+      </div>
+      <ul id="friend-list"></ul>
+    </div>
+    <div class="chat-area">
+      <div id="chat-header">
+        <img src="default.jpg" alt="Profile"> <!-- Default profile picture -->
+        Select a friend to chat
+      </div>
+      <div id="chat-messages"></div>
+      <div class="message-input">
+        <input type="text" id="message-input" placeholder="Type a message...">
+        <button id="send-message">Send</button>
+      </div>
+    </div>
+  </div>
+  <script src="messages.js"></script>
+</body>
+</html>

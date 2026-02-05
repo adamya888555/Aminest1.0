@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Post</title>
+    <link rel="stylesheet" href="posts.css">
+</head>
+<body>
+    <h1>Create Post</h1>
+    <form id="post-form" enctype="multipart/form-data">
+        <div class="form-group">
+            <textarea id="caption" placeholder="Write a caption..." required></textarea>
+        </div>
+        <div class="form-group">
+            <input type="file" id="media" name="media" accept="image/jpeg,image/jpg,image/png" required>
+        </div>
+        <button type="submit" id="share-post-btn">Share Post</button>
+    </form>
+    <div id="error" class="error"></div>
+    <h2>Your Posts</h2>
+    <div id="posts-list" class="posts-list"></div>
+    <script src="posts.js"></script>
+</body>
+</html>

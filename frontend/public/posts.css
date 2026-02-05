@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+.form-group { margin: 20px 0; }
+textarea, input[type="file"] { width: 100%; padding: 10px; margin-bottom: 10px; }
+button { padding: 10px 20px; background: #007bff; color: white; border: none; cursor: pointer; }
+.error { color: red; }
+.posts-list { margin: 20px 0; }
+.post { border: 1px solid #ddd; padding: 10px; margin: 10px 0; }
+.post img { max-width: 100%; height: auto; }
+.post .caption { font-weight: bold; margin: 10px 0; }
+.post .created { color: #666; font-size: 0.9em; }

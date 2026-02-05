@@ -1,0 +1,332 @@
+body {
+  font-family: 'Inter', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.search-results,
+.friends-list,
+.requests-list {
+  margin-top: 1.25rem;
+}
+
+.search-result,
+.friend,
+.request {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.625rem;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  background-color: #f7fafc;
+}
+
+.friend-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.75rem;
+}
+
+.friend button {
+  background-color: #ff4d4d;
+  margin-left: 0.75rem;
+  color: white;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  transition: background-color 0.3s ease;
+}
+
+.friend button:hover {
+  background-color: #c82333;
+}
+
+.request button {
+  margin-left: 0.75rem;
+  color: white;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  transition: background-color 0.3s ease;
+}
+
+.request button.accept {
+  background-color: #28a745;
+}
+
+.request button.accept:hover {
+  background-color: #218838;
+}
+
+.request button.decline {
+  background-color: #ff4d4d;
+}
+
+.request button.decline:hover {
+  background-color: #c82333;
+}
+
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.search-results,
+.friends-list,
+.requests-list {
+  margin-top: 1.25rem;
+}
+
+.search-result,
+.friend,
+.request {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.625rem;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  background-color: #f7fafc;
+}
+
+.friend-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.75rem;
+}
+
+.friend button {
+  background-color: #ff4d4d;
+  margin-left: 0.75rem;
+  color: white;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  transition: background-color 0.3s ease;
+}
+
+.friend button:hover {
+  background-color: #c82333;
+}
+
+.request button {
+  margin-left: 0.75rem;
+  color: white;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  transition: background-color 0.3s ease;
+}
+
+.request button.accept {
+  background-color: #28a745;
+}
+
+.request button.accept:hover {
+  background-color: #218838;
+}
+
+.request button.decline {
+  background-color: #ff4d4d;
+}
+
+.request button.decline:hover {
+  background-color: #c82333;
+}
+
+
+
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+textarea,
+input[type="file"] {
+  width: 150px;
+  height: 150px;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 50%;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.search-results,
+.friends-list,
+.requests-list {
+  margin-top: 1.25rem;
+}
+
+.search-result,
+.friend,
+.request {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.625rem;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  background-color: #f7fafc;
+}
+
+.friend-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.75rem;
+}
+
+.friend button {
+  background-color: #ff4d4d;
+  margin-left: 0.75rem;
+  color: white;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  transition: background-color 0.3s ease;
+}
+
+.friend button:hover {
+  background-color: #c82333;
+}
+
+.request button {
+  margin-left: 0.75rem;
+  color: white;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  transition: background-color 0.3s ease;
+}
+
+.request button.accept {
+  background-color: #28a745;
+}
+
+.request button.accept:hover {
+  background-color: #218838;
+}
+
+.request button.decline {
+  background-color: #ff4d4d;
+}
+
+.request button.decline:hover {
+  background-color: #c82333;
+}

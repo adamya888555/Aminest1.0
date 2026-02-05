@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900">
+    <div class="container mx-auto p-4 md:p-6 lg:p-8">
+        <h1 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Profile</h1>
+        <div class="flex flex-col items-center mb-6">
+            <img id="profilePic" class="profile-pic" src="/Uploads/default.png" alt="Profile Picture" >
+            <p class="text-lg text-gray-700 dark:text-gray-300 mt-2">
+                <strong>Name:</strong> <span id="fName" class="font-medium"></span> <span id="lName" class="font-medium"></span>
+            </p>
+            <p class="text-lg text-gray-700 dark:text-gray-300">
+                <strong>Email:</strong> <span id="email" class="font-medium"></span>
+            </p>
+            <p class="text-lg text-gray-700 dark:text-gray-300">
+                <strong>BIO:</strong> <span id="bio" class="font-medium"></span>
+            </p>
+        </div>
+
+        <div class="form-group">
+            <textarea id="bioInput" placeholder="Update your bio" class="w-full rounded-md border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"></textarea>
+            <button onclick="updateBio()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out shadow-md">Update Bio</button>
+        </div>
+
+        <div class="form-group">
+            <input type="file" id="profilePicInput" accept="image/jpeg,image/jpg,image/png" class="mb-2">
+            <button onclick="updateProfilePic()" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out shadow-md">Upload Picture</button>
+        </div>
+
+        <div class="form-group">
+            <input type="text" id="searchInput" placeholder="Search users by name or email" class="w-full rounded-md border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">
+            <button onclick="searchUsers()" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out shadow-md mt-2">Search</button>
+        </div>
+
+        <div class="search-results bg-gray-50 dark:bg-gray-800 rounded-md p-4 mt-4" id="searchResults"></div>
+
+        <h2 class="text-xl font-semibold text-gray-800 dark:text-white mt-6 mb-4">Pending Friend Requests</h2>
+        <div class="requests-list bg-gray-50 dark:bg-gray-800 rounded-md p-4" id="requestsList"></div>
+
+        <h2 class="text-xl font-semibold text-gray-800 dark:text-white mt-6 mb-4">Friends</h2>
+        <div class="friends-list bg-gray-50 dark:bg-gray-800 rounded-md p-4" id="friendsList"></div>
+
+        <p id="error" class="error text-red-500 font-semibold mt-4"></p>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>

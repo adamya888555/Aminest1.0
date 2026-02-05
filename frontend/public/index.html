@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register & Login</title>
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container" id="signup">
+        <h1 class="form-title">Register</h1>
+        <form>
+            <div class="input-group">
+                <i class="uil uil-user"></i>
+                <input type="text" name="fName" id="signup-fName" placeholder="First Name" required>
+                <label for="signup-fName"></label>
+            </div>
+            <div class="input-group">
+                <i class="uil uil-user"></i>
+                <input type="text" name="lName" id="signup-lName" placeholder="Last Name" required>
+                <label for="signup-lName"></label>
+            </div>
+            <div class="input-group">
+                <i class="uil uil-envelope"></i>
+                <input type="email" name="email" id="signup-email" placeholder="Email" required>
+                <label for="signup-email"></label>
+            </div>
+            <div class="input-group">
+                <i class="uil uil-lock"></i>
+                <input type="password" name="password" id="signup-password" placeholder="Password" required>
+                <label for="signup-password"></label>
+            </div>
+            <div id="signup-error" class="error"></div>
+            <input type="submit" class="btn" value="Sign Up" id="signup-submit">
+        </form>
+        <div class="links">
+            <p>Already Have Account?</p>
+            <button id="signInButton">Sign In</button>
+        </div>
+    </div>
+
+    <div class="container" id="signIn">
+        <h1 class="form-title">Sign In</h1>
+        <form>
+            <div class="input-group">
+                <i class="uil uil-envelope"></i>
+                <input type="email" name="email" id="signin-email" placeholder="Email" required>
+                <label for="signin-email"></label>
+            </div>
+            <div class="input-group">
+                <i class="uil uil-lock"></i>
+                <input type="password" name="password" id="signin-password" placeholder="Password" required>
+                <label for="signin-password"></label>
+            </div>
+            <div id="signin-error" class="error"></div>
+            <input type="submit" class="btn" value="Sign In" id="signin-submit">
+        </form>
+        <div class="links">
+            <p>Don't have account yet?</p>
+            <button id="signUpButton">Sign Up</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
